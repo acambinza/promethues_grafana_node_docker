@@ -2,6 +2,6 @@ FROM node:16-alpine
 
 WORKDIR /home/app
 
-COPY . .
+#COPY . .
 
 CMD npm run dev
